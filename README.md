@@ -1,5 +1,7 @@
 # Chalk
 
+![Today – the day strip, the current lesson and what's next](docs/screenshots/01-today.png)
+
 Chalk is a single-user web app for running a private math tutoring practice: students, weekly schedules, lessons, lesson notes, payments, balances and self-employment taxes in one place. It replaced a Google Doc, a hand-kept Google Calendar and checking the banking app by hand.
 
 It is in **daily production use** by one tutor (me). The UI is in **Lithuanian**; code, comments and docs are in English. This repository is a sanitized public copy – it contains no student data, credentials or backups.
@@ -61,4 +63,19 @@ Other commands: `npm run lint`, `npm run typecheck`, `npm test`, `npm run build`
 
 ## Screenshots
 
-_Coming soon – screenshots will live in `docs/screenshots/`._
+Screenshots use fictional student names and sample financial data.
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/02-schedule.png" alt="Schedule"><br><sub>Weekly schedule with drag-to-reschedule</sub></td>
+    <td width="50%"><img src="docs/screenshots/03-students.png" alt="Students"><br><sub>Students by status, with schedules and balances</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/04-student-profile.png" alt="Student profile"><br><sub>Student profile – contacts, slots, gaps and notes</sub></td>
+    <td><img src="docs/screenshots/05-finance.png" alt="Finance"><br><sub>Finance – earned, received, debts and tax estimate</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/06-mobile.png" alt="Mobile" width="300"><br><sub>Phone layout (PWA)</sub></td>
+    <td><img src="docs/screenshots/07-navbar-dropdown.png" alt="Navbar menu"><br><sub>The glass navbar morphing into a menu panel</sub></td>
+  </tr>
+</table>
