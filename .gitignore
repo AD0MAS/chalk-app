@@ -1,0 +1,30 @@
+# personal data & backups — never commit
+private/
+
+# env / secrets
+.env
+.env*.local
+
+# deps & build
+node_modules/
+.next/
+out/
+build/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# supabase local
+supabase/.temp/
+supabase/.branches/
+
+# os
+.DS_Store
+Thumbs.db
+
+# testing / misc (from create-next-app)
+/coverage
+*.pem
+npm-debug.log*
+.pnp
+.pnp.*
